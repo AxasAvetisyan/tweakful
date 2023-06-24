@@ -1,0 +1,130 @@
+{
+    "about": [
+        {
+            "id": 1,
+            "heading": "This headline is the <br> gist of the Your <br> whole Website",
+            "paragraph1": "And the description of hero section is follow up <br> message after the punch of a great headline. So, <br> make it short, simple, descriptive and to the point.",
+            "paragraph2": "Here you can put secondary <br> action statement & CTA",
+            "img1": "<img src='./images/Logitech.png' alt='Logitech'>",
+            "img2": "<img src='./images/Google.png' alt='Google'>",
+            "img3": "<img src='./images/Amazon.png' alt='Amazon'>"
+        }
+        
+    ],
+    "images": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Image.png' alt='Image'>"
+        }
+    ],
+    "headline": [
+        {
+            "id": 1,
+            "paragraph1": "Nowadays, it isn’t uncommon to see lenders rapidly <br> adopting a digital lending strategy to streamline the <br> lending process Gorgeous, high-quality design system for <br> mobile, tablet & desktop devices a few reasons digital",
+            "heading1": "18<span>k</span>",
+            "paragraph2": "Gorgeous, high-quality <br> design system for mobile, <br> tablet & desktop devices",
+            "heading2": "92<span>%</span>",
+            "paragraph": "Gorgeous, high-quality <br> design system for mobile, <br> tablet & desktop devices"
+        }
+       
+    ],
+    "headlineImages": [
+        {
+            "id": 1,
+            "video": "<video src='images/vid-1.mp4' autoplay muted loop></video>"
+        }
+    ],
+    "platform": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-solid fa-star'></i>",
+            "heading": "First Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-bolt'></i>",
+            "heading": "Second Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 3,
+            "icon" : "<i class='fa-solid fa-tag'></i>",
+            "heading": "Third Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 4,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "Fourth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 5,
+            "icon": "<i class='fa-solid fa-heart'></i>",
+            "heading": "Fifth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 6,
+            "icon": "<i class='fa-solid fa-shield'></i>",
+            "heading": "Sixth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        }
+    ],
+    "story": [
+        {
+            "id": 1,
+            "heading": "Success Story",
+            "paragraph": "Nowadays, it isn’t uncommon <br> to see lenders rapidly <br> adopting a digital lending <br> strategy to streamline the <br> lending process"
+        }
+
+    ],
+    "story2": [
+        {
+            "id": 1,
+            "heading": "Logitech",
+            "paragraph": "Logitech International S.A. (/ˈlɒdʒɪtɛk/ LOJ-i-tek; often shortened to Logi) is a Swiss-American multinational manufacturer of computer peripherals and software, with headquarters in Lausanne, Switzerland, and Newark, California."
+        }
+    ],
+    "story3": [
+        {
+            "id": 1,
+            "heading": "Logitech International S.A.",
+            "paragraph": "The company develops and <br> markets  personal peripherals <br> for PC navigation, video communication and collaboration"
+        }
+    ],
+    "storyimg": [
+        {   "id": 1,
+            "img": "<img src='./images/Rectangle.png' alt='Rectangle'>",
+            "img1": "<img src='./images/Logitech5.jpg' alt='Logitech5'>"
+
+        }
+    ],
+    "businesdiv": [
+        {
+            "id": 1,
+            "img": "<img src='images/grup4.png' alt='grup1'>",
+            "heading": "Ideate",
+            "paragraph": "Turn your idea from concept to <br> MVP"
+        },
+        {
+            "id": 2,
+            "img": "<img src='images/grup1.png' alt='grup2'>",
+            "heading": "Design",
+            "paragraph": "Sketch out the product to align the <br> user needs"
+        },
+        {
+            "id": 3,
+            "img": "<img src='images/grup2.png' alt='grup3'>",
+            "heading": "Develop",
+            "paragraph": "Convert the designs into a live <br> application"
+        },
+        {
+            "id": 4,
+            "img": "<img src='images/grup3.png' alt='Feature'>",
+            "heading": "Deploy",
+            "paragraph": "Launching the application to the <br> market"
+        }
+    ]
+}

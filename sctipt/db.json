@@ -1,0 +1,563 @@
+{
+    "headLine_1": [
+        {
+            "id": 1,
+            "heading": "This headline is the gist of the Your whole Website",
+            "paragraph": "And the description of hero section is follow up <br> message after the punch of a great headline. So, <br> make it short, simple, descriptive and to the point.",
+            "btn": "Book A Meeting <i class='fa-solid fa-arrow-right'></i>",
+            "paragraph2": "Here you can put secondary <br> action statement & CTA",
+            "img1": "<img src='./images/Logitech.png' alt=''>",
+            "img2": "<img src='./images/Google.png' alt=''>",
+            "img3": "<img src='./images/Amazon.png' alt=''>"
+        }
+    ],
+    "img_girl": [
+        {
+            "img": "<img src='./images/Image.png' alt=''>"
+        }
+    ],
+    "benfit_block": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "First Benefit",
+            "paragraph": "Gorgeous, high-quality design system for <br> mobile, tablet & desktop devices a few"
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-star'></i>",
+            "heading": "Second Benefit",
+            "paragraph": "Gorgeous, high-quality design system for <br> mobile, tablet & desktop devices a few"
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-layer-group'></i>",
+            "heading": "Third Benefit",
+            "paragraph": "Gorgeous, high-quality design system for <br> mobile, tablet & desktop devices a few"
+        }
+    ],
+    "benefit_headL-dec": [
+        {
+            "heading": "Headline of Modern and Digital <br> Lending Platform Seconds",
+            "paragraph": "Nowadays, it isn’t uncommon to see lenders <br> rapidly adopting a digital lending strategy",
+            "btn": "Book A Meeting <i class='fa-solid fa-arrow-right'></i>"
+        }
+    ],
+    "working_works": [
+        {
+            "id": 1,
+            "icon": "<img src='./images/Feature Icon with circle (1).png' alt=''>",
+            "heading": "Time zones ain’t no thing",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Mattis et sed nam semtellus erat."
+        },
+        {
+            "id": 2,
+            "icon": "<img src='./images/Feature Icon with circle (2).png' alt=''>",
+            "heading": "Full spectrum of services",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Mattis et sed nam semtellus erat."
+        },
+        {
+            "id": 3,
+            "icon": "<img src='./images/Feature Icon with circle (3).png' alt=''>",
+            "heading": "Impossible? We’re on it",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Mattis et sed nam semtellus erat."
+        },
+        {
+            "id": 4,
+            "icon": "<img src='./images/Feature Icon with circle(4).png' alt=''>",
+            "heading": "Flexible work terms",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Mattis et sed nam semtellus erat."
+        }
+    ],
+    "story_home": [
+        {
+            "id": 1,
+            "heading": "Success Story",
+            "paragraph": "Nowadays, it isn’t uncommon <br> to see lenders rapidly <br> adopting a digital lending <br> strategy to streamline the <br> lending process",
+            "img": "<img src='./images/Logitech.png' alt=''>",
+            "btn_a": "Read Complete Case Study <i class='fa-solid fa-arrow-right'></i>"
+        }
+    ],
+    "story_img": {
+        "img": "<img src='./images/Rectangle.png' alt=''>"
+    },
+    "process": [
+        {
+            "id": 1,
+            "heading": "Ideate",
+            "paragraph": "Turn your idea from concept to <br> MVP"
+        },
+        {
+            "id": 2,
+            "heading": "Design",
+            "paragraph": "Sketch out the product to align the <br> user needs"
+        },
+        {
+            "id": 3,
+            "heading": "Develop",
+            "paragraph": "Convert the designs into a live <br> application"
+        },
+        {
+            "id": 4,
+            "heading": "Deploy",
+            "paragraph": "Launching the application to the <br> market"
+        }
+    ],
+    "about": [
+        {
+            "id": 1,
+            "heading": "This headline is the <br> gist of the Your <br> whole Website",
+            "paragraph1": "And the description of hero section is follow up <br> message after the punch of a great headline. So, <br> make it short, simple, descriptive and to the point.",
+            "paragraph2": "Here you can put secondary <br> action statement & CTA",
+            "img1": "<img src='./images/Logitech.png' alt='Logitech'>",
+            "img2": "<img src='./images/Google.png' alt='Google'>",
+            "img3": "<img src='./images/Amazon.png' alt='Amazon'>"
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Image.png' alt='Image'>"
+        }
+    ],
+    "headline__": [
+        {
+            "id": 1,
+            "paragraph1": "Nowadays, it isn’t uncommon to see lenders rapidly <br> adopting a digital lending strategy to streamline the <br> lending process Gorgeous, high-quality design system for <br> mobile, tablet & desktop devices a few reasons digital",
+            "heading1": "18<span>k</span>",
+            "paragraph2": "Gorgeous, high-quality <br> design system for mobile, <br> tablet & desktop devices",
+            "heading2": "92<span>%</span>",
+            "paragraph": "Gorgeous, high-quality <br> design system for mobile, <br> tablet & desktop devices"
+        }
+    ],
+    "headlineImages": [
+        {
+            "id": 1,
+            "video": "<video src='images/vid-1.mp4' autoplay muted loop></video>"
+        }
+    ],
+    "platform": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-solid fa-star'></i>",
+            "heading": "First Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-bolt'></i>",
+            "heading": "Second Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-tag'></i>",
+            "heading": "Third Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 4,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "Fourth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 5,
+            "icon": "<i class='fa-solid fa-heart'></i>",
+            "heading": "Fifth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        },
+        {
+            "id": 6,
+            "icon": "<i class='fa-solid fa-shield'></i>",
+            "heading": "Sixth Feature",
+            "paragraph": "Gorgeous, high-quality design <br> system for mobile, tablet and <br> desktop devices a few reasons"
+        }
+    ],
+    "story_features": [
+        {
+            "id": 1,
+            "heading": "Success Story",
+            "paragraph": "Nowadays, it isn’t uncommon <br> to see lenders rapidly <br> adopting a digital lending <br> strategy to streamline the <br> lending process"
+        }
+    ],
+    "story2": [
+        {
+            "id": 1,
+            "heading": "Logitech",
+            "paragraph": "Logitech International S.A. (/ˈlɒdʒɪtɛk/ LOJ-i-tek; often shortened to Logi) is a Swiss-American multinational manufacturer of computer peripherals and software, with headquarters in Lausanne, Switzerland, and Newark, California."
+        }
+    ],
+    "story3": [
+        {
+            "id": 1,
+            "heading": "Logitech International S.A.",
+            "paragraph": "The company develops and <br> markets  personal peripherals <br> for PC navigation, video communication and collaboration"
+        }
+    ],
+    "storyimg__": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Rectangle.png' alt='Rectangle'>",
+            "img1": "<img src='./images/Logitech5.jpg' alt='Logitech5'>"
+        }
+    ],
+    "businesdiv": [
+        {
+            "id": 1,
+            "img": "<img src='images/grup4.png' alt='grup1'>",
+            "heading": "Ideate",
+            "paragraph": "Turn your idea from concept to <br> MVP"
+        },
+        {
+            "id": 2,
+            "img": "<img src='images/grup1.png' alt='grup2'>",
+            "heading": "Design",
+            "paragraph": "Sketch out the product to align the <br> user needs"
+        },
+        {
+            "id": 3,
+            "img": "<img src='images/grup2.png' alt='grup3'>",
+            "heading": "Develop",
+            "paragraph": "Convert the designs into a live <br> application"
+        },
+        {
+            "id": 4,
+            "img": "<img src='images/grup3.png' alt='Feature'>",
+            "heading": "Deploy",
+            "paragraph": "Launching the application to the <br> market"
+        }
+    ],
+    "headLine": [
+        {
+            "id": 1,
+            "headLineMainPar": "This headline is the gist of <br>the Your whole Website That <br> can Either Make Or Break",
+            "headLinePar": "E-commerce shipping Pack collects different ways to do quick shopping, pay in a <br> second, and get all those stuff you need. There are smart delivery and polite <br> service in the scenes. Eachof them is realized in cold and warm colors with",
+            "headLine_wumen_img": "<img src='images/Rectangle 379.png' alt='img'>",
+            "headLine_wumen_name": "Jesica Kumari",
+            "headLine_wumen_profy": "CEO Of Acme Limited",
+            "headLinebtn1": "<a href='#' class='btn'>Explore More About This <i class='fa-solid fa-arrow-right'></i></a>"
+        }
+    ],
+    "cleant": [
+        {
+            "id": 1,
+            "cleant_block_min_img": " <img src='images/01.png' alt='icon'>",
+            "cleant_block_min_desc": "Mobile Application",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        },
+        {
+            "id": 2,
+            "cleant_block_min_img": "<img src='images/02.png' alt='icon'>'",
+            "cleant_block_min_desc": "Web Application",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        },
+        {
+            "id": 3,
+            "cleant_block_min_img": "<img src='images/03.png' alt='icon'>'",
+            "cleant_block_min_desc": "User Interface Design",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        },
+        {
+            "id": 4,
+            "cleant_block_min_img": "<img src='images/04.png' alt='icon'>'",
+            "cleant_block_min_desc": "Strategy and Branding",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        },
+        {
+            "id": 5,
+            "cleant_block_min_img": "<img src='images/05.png' alt='icon'>'",
+            "cleant_block_min_desc": "Performance Marketing",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        },
+        {
+            "id": 6,
+            "cleant_block_min_img": "<img src='images/06.png' alt='icon'>'",
+            "cleant_block_min_desc": "Project Management",
+            "cleant_block_min_par": "Lorem ipsum dolor amet, consectetur <br> adipiscing elit. Mattis et sed nam sem <br> tellus erat.",
+            "cleant_block_min_link": "<a href='#'>Explore <i class='fa-solid fa-arrow-right'></i></a>"
+        }
+    ],
+    "work__": [
+        {
+            "id": 1,
+            "work_block_img": "<img src='images/Feature Icon with circle (1).png' alt='img'>",
+            "work_dec": "Time zones ain’t no thing",
+            "work_par": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nulla autem id blanditiis?"
+        },
+        {
+            "id": 2,
+            "work_block_img": "<img src='images/Feature Icon with circle (2).png' alt='img'>",
+            "work_dec": "Full spectrum of services",
+            "work_par": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nulla autem id blanditiis?"
+        },
+        {
+            "id": 3,
+            "work_block_img": "<img src='images/Feature Icon with circle (3).png' alt='img'>",
+            "work_dec": "Impossible? We’re on it",
+            "work_par": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nulla autem id blanditiis?"
+        },
+        {
+            "id": 4,
+            "work_block_img": "<img src='images/Feature Icon with circle(4).png' alt='img'>",
+            "work_dec": "Flexible work terms",
+            "work_par": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nulla autem id blanditiis?"
+        }
+    ],
+    "story__": [
+        {
+            "id": 4,
+            "story_img": "<img  class='story_content_img' src='images/Rectangle.png' alt='images'>",
+            "story_par": "There are smart delivery <br> and polite service in the <br> scenes. Each of them is <br> realized in cold and warm <br> colors with sky.",
+            "story_logo": "<img src='images/Logitech.png' alt='logo'>",
+            "story_desc": "David Gillroy",
+            "stor_prof": "Digital Artist at Digital Group"
+        }
+    ],
+    "sponsor": [
+        {
+            "sponsor_user": "1500+",
+            "sponsor_desc": "Customers who have used Tweakful engagement design approach",
+            "img1": "<img src='images/Airbnb-Logo.png' alt='images'>",
+            "img2": "<img src='images/Amazon-Logo.png' alt='images'>",
+            "img3": "<img src='images/FedEx-Logo.png' alt='images'>",
+            "img4": "<img src='images/Microsoft-Logo.png' alt='images'>",
+            "img5": "<img src='images/Google-Logo.png' alt='images'>",
+            "img6": "<img src='images/OLA-Logo.png' alt='images'>",
+            "img7": "<img src='images/Walmart-Logo.png' alt='images'>",
+            "img8": "<img src='images/OYO-Logo.png' alt='images'>"
+        }
+    ],
+    "team": [
+        {
+            "id": 1,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Samuel Willson",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 2,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Angelina Hellhop",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 3,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Kyle Generale",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 4,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Joey Taylor",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 5,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Samuel Willson",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 6,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Angelina Hellhop",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 7,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Kyle Generale",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        },
+        {
+            "id": 8,
+            "team_block_img": "<img src='images/person1.png' alt='images'>",
+            "team_block_dec": "Joey Taylor",
+            "team_block_par_imp": "Digital Artist",
+            "icon1": "<a href='#'><i class='fa-brands fa-linkedin-in'></i></a>",
+            "icon2": "<a href='#'><i class='fa-brands fa-google'></i></a>",
+            "icon3": "<a href='#'><i class='fa-brands fa-twitter'></i></a>"
+        }
+    ],
+    "library": [
+        {
+            "id": 1,
+            "heading": "We have created a big library <br> of illustrations with custom <br> style and action types.",
+            "paragraph": "“E-commerce Illustration Pack collects different ways to do quick shopping, pay in <br> a second, andget all those stuff you need. There are smart delivery and polite <br> service in the scenes. Eachof them is realized in cold and warm colors with”",
+            "img": "<img src='./images/Rectangle 379.png' alt='Rectangle 379'>",
+            "par1": "Jesica Kumari",
+            "par2": "CEO Of Acme Limited"
+        }
+    ],
+    "matters": [
+        {
+            "id": 1,
+            "count": 5,
+            "text": "Service Geographics"
+        },
+        {
+            "id": 2,
+            "count": 30,
+            "text": "Fortune 500 Clients"
+        },
+        {
+            "id": 3,
+            "count": 300,
+            "text": "Dedicated Members"
+        },
+        {
+            "id": 4,
+            "count": 8,
+            "text": "Dedicated Members"
+        }
+    ],
+    "lending": [
+        {
+            "id": 1,
+            "image": "<img src='./images/Rectangle1.png' alt='Rectangle1'>",
+            "heading": "Headline of Modern and <br> Digital Lending Platform <br> In a Few Seconds for You",
+            "text": "Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital <br> lending strategy tostreamline the lending process Gorgeous, <br> high-quality design system for mobile, tablet & afew reasons digital"
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "First Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-layer-group'></i>",
+            "heading": "Second Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-heart'></i>",
+            "heading": "Third Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 4,
+            "icon": "<i class='fa-solid fa-star'></i>",
+            "heading": "Fourth Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 5,
+            "icon": "<i class='fa-solid fa-bolt'></i>",
+            "heading": "Fifth Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 6,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "First Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        }
+    ],
+    "featuresimg": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Rectangle (2).png' alt='Rectangle (2)'>"
+        }
+    ],
+
+    "strategy": [
+        {
+            "id": 1,
+            "heading": "Nowadays, it isn’t uncommon to see <br> lenders rapidly adopting a digital <br> lending strategy to streamline"
+        }
+    ],
+   
+    "teamblock": [
+        {
+            "id": 1,
+            "img": "<img src='images/person1.png' alt='vffv'>",
+            "heading": "Samuel Willson",
+            "text": "Digital Artist"
+        },
+        {
+            "id": 2,
+            "img": "<img src='images/person3.jpg' alt=''>",
+            "heading": "Angelina Hellhopn",
+            "text": "Digital Artist"
+        },
+        {
+            "id": 3,
+            "img": "<img src='images/person2.jpg' alt=''>",
+            "heading": "Kyle Generale",
+            "text": "Digital Artist"
+        }
+    ],
+
+
+    "story": [
+        {
+            "id": 1,
+            "heading": "Success Story",
+            "text": "Nowadays, it isn’t uncommon <br> to see lenders rapidly <br> adopting a digital lending <br> strategy to streamline the <br> lending process"
+        }
+    ],
+    "storiimg": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Rectangle.png' alt='Rectangle' class='image'>"
+        }
+    ],
+    "storyimg": [
+        {
+            "id": 1,
+            "image": "<img src='./images/Rectangle.png' alt='Rectangle' class='image'>"
+        }
+    ],
+    "work": [
+        {
+            "id": 1,
+            "img": "<img src='./images/images1.png' alt='images1'>",
+            "heading": "Create your site",
+            "text": "Create an account to get started"
+        },
+        {
+            "id": 2,
+            "img": "<img src='./images/images2.png' alt='images1'>",
+            "heading": "Add Contents",
+            "text": "Add contents and pages to your site."
+        },
+        {
+            "id": 3,
+            "img": " <img src='./images/images3.png' alt='images1'>",
+            "heading": "Publish",
+            "text": "Now publish to make your site live!"
+        }
+    ]
+}

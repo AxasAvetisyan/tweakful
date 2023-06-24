@@ -1,0 +1,1322 @@
+:root {
+    --blackLogo: #1A1A1A;
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 3%;
+    }
+
+    /* ...........library.......... */
+    .library .container .inner h1 {
+        font-size: 52px;
+    }
+
+    .library .container .inner p {
+        font-size: 18px;
+    }
+
+    /* ..............lending............ */
+    .lending .container .inner .content h3 {
+        font-size: 28px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 16px;
+    }
+
+    /* ...........features............... */
+    .features .container .inner .image img {
+        width: 350px;
+        height: 500px;
+    }
+
+    /* .............strategy............ */
+    .strategy .container .inner .content h4 {
+        font-size: 38px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 320px;
+        height: 340px;
+    }
+
+    /* ...........story.......... */
+    .story .container .inner .content p {
+        font-size: 34px;
+    }
+
+    /* ...........closing............ */
+    .closing .container .inner .content h2 {
+        font-size: 44px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    
+    footer .foot .foot2 .foot2_contact ul {
+        flex-wrap: wrap;
+    }
+
+    footer .foot .foot2 .foot2_contact ul li {
+        width: 33%;
+    }
+}
+
+
+@media(max-width: 1080px) {
+   
+
+    .container {
+        padding: 0 5%;
+    }
+
+    /* ............features............. */
+    .features .container .inner {
+        display: block;
+        padding: 80px 0 130px;
+    }
+
+    .features .container .inner .image {
+        text-align: center;
+    }
+
+    .features .container .inner .image img {
+        width: 320px;
+        height: 380px;
+    }
+
+    .features .container .inner .content .block {
+        width: 48%;
+    }
+
+    .features .container .inner .content .block .icon {
+        text-align: center;
+    }
+
+    .features .container .inner .content .block h4 {
+        text-align: center;
+    }
+
+    .features .container .inner .content .block p {
+        text-align: center;
+    }
+
+
+    /* .............strategy............ */
+    .strategy .container .inner .teamblock .block img {
+        width: 280px;
+        height: 300px;
+    }
+
+    /* ...........story.......... */
+    .story .container .inner .content h4 {
+        font-size: 36px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 24px;
+    }
+
+}
+
+@media(max-width: 992px) {
+    
+    footer .foot .foot2 .foot2_contact ul li {
+        width: 50%;
+    }
+    
+    .container {
+        padding: 0 5%;
+    }
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 48px;
+    }
+
+    .library .container .inner p {
+        font-size: 16px;
+    }
+
+    .library .container .div-bt .btn {
+        font-size: 12px;
+    }
+
+    /* ..........matters............ */
+    .matters .container .inner h4 {
+        font-size: 36px;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 46px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 320px;
+        height: 340px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 22px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 18px;
+    }
+
+    .lending .container .inner .content .icons a i {
+        font-size: 30px;
+    }
+
+    /* ............features............. */
+    .features .container .inner {
+        display: block;
+        padding: 80px 0 130px;
+    }
+
+    .features .container .inner .image {
+        text-align: center;
+    }
+
+    .features .container .inner .image img {
+        width: 320px;
+        height: 380px;
+    }
+
+    .features .container .inner .content .block {
+        width: 45%;
+    }
+
+    /* .............strategy............ */
+    .strategy .container .inner {
+        padding-bottom: 60px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 250px;
+        height: 270px;
+    }
+
+    .strategy .container .inner .content h4 {
+        font-size: 36px;
+    }
+
+    /* ...........story.......... */
+    .story .container .inner .content h4 {
+        font-size: 34px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 22px;
+    }
+
+    .story .container .inner .images .image {
+        width: 320px;
+        height: 360px;
+    }
+
+    /* ............work.......... */
+    .work .container .inner h3 {
+        font-size: 32px;
+    }
+
+    .work .container .inner .content .block .heading {
+        font-size: 20px;
+    }
+
+    .work .container .inner .content .block .text {
+        font-size: 12px;
+    }
+
+    /* ...........closing............ */
+    .closing .container .inner .content h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 16px;
+    }
+
+    .closing .container .inner .images img {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width:936px) {
+    footer .foot .foot2 .foot2_blog ul{
+        flex-wrap: wrap;
+    }
+    footer .foot .foot2 .foot2_blog ul li{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:920px) {
+    header .container .logo-menu #menu-bar {
+        display: initial;
+    }
+
+    header .container .logo-menu #menu-bar:hover {
+        color: var(--base);
+    }
+
+    header .container .logo-menu .navbar {
+        position: absolute;
+        top: 78%;
+        left: 0;
+        right: 0;
+        background: var(--base);
+        transform: scale(0);
+        padding: 15px;
+    }
+
+    header .container .logo-menu .navbar.active {
+        transform: scale(1);
+        width: 40%;
+    }
+
+    header .container .logo-menu .navbar a {
+        display: block;
+        background: var(--white);
+        margin: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        color: var(--black);
+    }
+}
+
+@media(max-width: 900px) {
+
+    
+
+
+    /* ............library............. */
+
+    .library .container .inner h1 {
+        font-size: 38px;
+    }
+
+    .library .container .inner p {
+        font-size: 16px;
+    }
+
+    .library .container .div-bt .btn {
+        padding: 10px;
+    }
+
+    /* ..........matters............ */
+    .matters .container .inner h4 {
+        font-size: 30px;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 40px;
+    }
+
+    .matters .container .inner .content .block h5 {
+        font-size: 14px;
+    }
+
+    /* ..........lending............. */
+    .lending .container .inner .content p {
+        padding: 15px 0;
+    }
+
+    /* ...........features............. */
+
+    .features .container .inner .content .block h4 {
+        font-size: 18px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 14px;
+    }
+
+    /* ...............strategy................. */
+    .strategy .container .inner a {
+        font-size: 18px;
+    }
+
+    .strategy .container .inner .content h4 {
+        font-size: 28px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 210px;
+        height: 230px;
+    }
+
+    .strategy .container .inner .content .icons i {
+        padding: 12px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 20px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 16px;
+    }
+
+    /* ..........story............... */
+    .story .container .inner .content h4 {
+        font-size: 30px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 18px;
+    }
+
+    .story .container .inner .images .image {
+        width: 300px;
+        height: 340px;
+    }
+
+    /* ...........closing............ */
+    .closing .container .inner .content h2 {
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .closing .container .inner .content .icon .btn {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 810px) {
+
+    footer .foot .foot2 .foot2_blog ul li{
+        width: 100%;
+    }
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .library .container .inner p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .library .container .inner .imgtext {
+        justify-content: center;
+    }
+
+    .library .container .div-bt {
+        text-align: center;
+    }
+
+    .library .container .inner .imgtext .h4span :nth-child(1) {
+        font-size: 14px;
+    }
+
+    .library .container .inner .imgtext .h4span :nth-child(2) {
+        font-size: 12px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 280px;
+        height: 320px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 22px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .lending .container .inner .content .icons a i {
+        font-size: 30px;
+    }
+
+
+
+    /* .............features............. */
+
+    .features .container .inner .image img {
+        width: 280px;
+        height: 340px;
+    }
+
+    /* ..........story............... */
+    .story {
+        padding: 80px 0;
+    }
+
+    .story .container .inner .content h4 {
+        font-size: 28px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 18px;
+    }
+
+    .story .container .inner .content img {
+        width: 30%;
+    }
+
+    .story .container .inner .images .image {
+        width: 260px;
+        height: 300px;
+    }
+
+    /* .............strategy.............. */
+    .strategy .container .inner .teamblock .block img {
+        width: 190px;
+        height: 210px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 18px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* ............work.......... */
+    .work .container .inner h3 {
+        font-size: 36px;
+    }
+
+    .work .container .inner .content .block .heading {
+        font-size: 20px;
+    }
+
+    .work .container .inner .content .block .text {
+        font-size: 16px;
+    }
+
+    .work .container .inner .content {
+        flex-wrap: wrap;
+    }
+
+    .work .container .inner .content .block {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    /* ...........closing............ */
+    .closing .container {
+        padding: 0 10%;
+    }
+
+    .closing .container .inner {
+        padding: 50px 0;
+    }
+
+    .closing .container .inner .content h2 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .closing .container .inner .content .icon .btn {
+        padding: 10px;
+    }
+
+    .closing .container .inner .images {
+        display: none;
+    }
+}
+
+@media(max-width: 760px) {
+
+    /* .......lending........ */
+    .lending .container .inner .content h3 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 710px) {
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 32px;
+    }
+
+    .library .container .inner .imgtext .h4span :nth-child(1) {
+        font-size: 12px;
+    }
+
+    .library .container .inner .imgtext .h4span :nth-child(2) {
+        font-size: 10px;
+    }
+
+    /* ..........matters............ */
+    .matters .container .inner h4 {
+        font-size: 26px;
+    }
+
+    .matters .container .inner p {
+        font-size: 16px;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 30px;
+    }
+
+    .matters .container .inner .content .block h5 {
+        font-size: 12px;
+    }
+
+    /* ...........lending............  */
+    .lending .container {
+        padding: 0 20%;
+    }
+
+    .lending .container .inner {
+        flex-wrap: wrap;
+        padding: 60px 0 0;
+    }
+
+    .lending .container .inner .image {
+        order: 2;
+        text-align: center;
+    }
+
+    .lending .container .inner .image img {
+        width: 280px;
+        height: 300px;
+    }
+
+    .lending .container .inner .content {
+        order: 1;
+        padding-bottom: 3%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 24px;
+    }
+
+    .lending .container .inner .content .icons {
+        justify-content: center;
+    }
+
+
+    /* ..........features............ */
+    .features .container .inner .content .block {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .features .container .inner .content .block h4 {
+        font-size: 24px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 18px;
+    }
+
+    .features .container .inner .image img {
+        width: 260px;
+        height: 280px;
+    }
+
+    /* .............strategy.............. */
+    .strategy .container .inner .content h4 {
+        font-size: 24px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 170px;
+        height: 190px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 16px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* ..........story............... */
+
+    .story .container .inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .story .container .inner .images {
+        order: 1;
+        text-align: center;
+        margin-right: 20%;
+    }
+
+    .story .container .inner .content {
+        order: 2;
+        padding-top: 10px;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    /* ........closing........... */
+    .closing .container .inner .content h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    footer .foot .foot2 .foot2_contact ul li{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 610px) {
+
+    header .btn-head a:first-child {
+        display: none;
+    }
+
+    header .btn-head a:last-child {
+        display: initial;
+        padding: 0;
+    }
+
+    header .btn-head a i:last-child {
+        padding: 0;
+    }
+
+
+    footer .foot {
+        display: block;
+    }
+
+    footer .foot .foot1 .foot1_desc {
+        font-size: 35px;
+        padding-top: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    footer .foot .foot1 a {
+        border: 1px solid var(--white);
+        padding: 7px;
+    }
+
+    footer .foot .foot2 .foot2_contact {
+        margin-top: 30px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+
+    .foot_copy p:first-child {
+        display: none;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 26px;
+    }
+
+
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 24px;
+    }
+
+    .library .container .inner p {
+        font-size: 16px;
+    }
+
+    .library .container .div-bt .btn{
+        padding: 6px;
+    }
+
+    /* ..........matters............ */
+    .matters {
+        padding: 30px 0;
+    }
+
+    .matters .container .inner h4 {
+        font-size: 22px;
+    }
+
+    .matters .container .inner p {
+        font-size: 14px;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 26px;
+    }
+
+    .matters .container .inner .content .block h5 {
+        font-size: 10px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 220px;
+        height: 240px;
+        border-radius: 5%;
+        margin-top: 10px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 18px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 14px;
+    }
+
+    /* .............strategy.............. */
+    .strategy .container .inner a {
+        font-size: 14px;
+    }
+
+    .strategy .container .inner .content h4 {
+        font-size: 22px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 150px;
+        height: 170px;
+    }
+
+    .strategy .container .inner .content .icons i {
+        padding: 8px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 16px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* .............clozing............... */
+    .closing .container .inner .content h2 {
+        font-size: 18px;
+    }
+
+
+}
+
+
+
+@media(max-width: 550px) {
+
+    /* .............library............ */
+    .library {
+        padding-bottom: 60px;
+    }
+
+    .library .container .inner h1 {
+        font-size: 22px;
+    }
+
+    .library .container .inner p {
+        font-size: 14px;
+    }
+
+    .library .container .inner .imgtext img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .library .container .div-bt .btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    /* ............features............ */
+    .features .container .inner .image img {
+        width: 240px;
+        height: 260px;
+    }
+
+    .features .container .inner .content .block h4 {
+        font-size: 22px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 16px;
+    }
+
+
+    /* .............strategy.............. */
+    .strategy .container .inner .teamblock {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .strategy .container .inner .teamblock .block {
+        width: 70%;
+        text-align: center;
+    }
+
+    .strategy .container .inner a {
+        font-size: 12px;
+    }
+
+    .strategy .container .inner .content {
+        display: block;
+    }
+
+    .strategy .container .inner .content .icons {
+        text-align: center;
+        margin: 0;
+    }
+
+    .strategy .container .inner .content h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 200px;
+        height: 240px;
+        padding: 20px 0;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 16px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* ..........story............... */
+    .story .container .inner {
+        padding-left: 70px;
+    }
+
+    .story .container .inner .content h4 {
+        font-size: 24px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 16px;
+    }
+
+    .story .container .inner .images .image {
+        width: 240px;
+        height: 280px;
+    }
+
+    /* ............work.......... */
+    .work .container .inner h3 {
+        font-size: 32px;
+    }
+
+    /* ...........closing............ */
+
+
+    .closing .container .inner .content h2 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    .closing .container .inner .content .icon .btn {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .closing .container .inner .images {
+        display: none;
+    }
+
+}
+
+@media(max-width: 480px) {
+
+    /* ..........matters............ */
+    .matters .container .inner h4 {
+        font-size: 20px;
+    }
+
+    .matters .container .inner p {
+        font-size: 12px;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 22px;
+    }
+
+    .matters .container .inner .content .block h5 {
+        font-size: 8px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 18px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .lending .container .inner .content .icons a i {
+        font-size: 30px;
+    }
+
+    /* ..........features............ */
+    .features .container .inner {
+        padding-bottom: 70px;
+    }
+
+    .features .container .inner .content .block {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .features .container .inner .content .block h4 {
+        font-size: 20px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 16px;
+    }
+
+    .features .container .inner .image img {
+        width: 240px;
+        height: 260px;
+    }
+
+    /* ..........story............... */
+    .story {
+        padding-top: 0;
+    }
+
+    .story .container .inner .content h4 {
+        font-size: 22px;
+    }
+
+    .story .container .inner .images .image {
+        width: 220px;
+        height: 240px;
+    }
+
+    .story .container .inner .content .social a {
+        font-size: 12px;
+    }
+
+    .story .container .inner .content .social a i {
+        padding-left: 0;
+    }
+
+    /* ..........work............ */
+    .work .container .inner {
+        padding-top: 0;
+    }
+
+    .work .container .inner h3 {
+        font-size: 28px;
+    }
+
+    .work .container .inner .content {
+        padding-top: 20px;
+    }
+
+    .work .container .inner .content .block .image img {
+        width: 40%;
+        height: 40%;
+    }
+
+
+}
+
+@media screen and (max-width:460px) {
+    
+    header #menu-bar {
+        margin-right: 10px;
+    }
+    header .container .logo-menu .logo-text{
+        padding-right: 0;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 100%;
+    }
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 410px) {
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 20px;
+    }
+
+    .library .container .div-bt .btn {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    /* ...........matters......... */
+    .matters .container .inner h4 {
+        font-size: 16px;
+    }
+
+    .matters .container .inner p {
+        font-size: 10px;
+        padding: 20px 0;
+    }
+
+    .matters .container .inner .content .block span {
+        font-size: 22px;
+    }
+
+    .matters .container .inner .content .block h5 {
+        font-size: 6px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 16px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .lending .container .inner .content .icons a i {
+        font-size: 20px;
+    }
+
+    /* ..........features............ */
+    .features .container .inner .content .block h4 {
+        font-size: 18px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 14px;
+    }
+
+    .features .container .inner .image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* .............strategy.............. */
+
+    .strategy .container .inner .content h4 {
+        font-size: 16px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 160px;
+        height: 200px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 14px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* ..........story............. */
+    .story .container .inner {
+        padding: 50px 0 50px 55px;
+    }
+
+    .story .container .inner .content h4 {
+        font-size: 20px;
+    }
+
+    .story .container .inner .images .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ............work................ */
+    .work .container .inner h3 {
+        font-size: 26px;
+    }
+
+    .work .container .inner .content .block .heading {
+        font-size: 18px;
+    }
+
+    .work .container .inner .content .block .text {
+        font-size: 14px;
+    }
+
+    /* ...........closing............ */
+    .closing .container .inner .content h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+}
+
+@media screen and (max-width:365px) {
+    footer .foot .foot1 .foot1_parr{
+        font-size: 12px;
+    }
+    footer .foot .foot2 .foot2_contact ul li a, .foot2_blog ul li a{
+        font-size: 12px;
+    }
+    .foot_copy p:last-child {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 355px) {
+
+    header .container .logo-menu .logo-text{
+        font-size: 20px;
+    }
+
+
+    /* .............library............ */
+    .library .container .inner h1 {
+        font-size: 18px;
+    }
+
+    .library .container .inner p {
+        font-size: 13px;
+    }
+
+    /* .........matters............ */
+    .matters .container .inner .content .block span {
+        font-size: 18px;
+    }
+
+    /* ...........lending............  */
+    .lending .container .inner .image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .lending .container .inner .content h3 {
+        font-size: 14px;
+    }
+
+    .lending .container .inner .content p {
+        font-size: 12px;
+    }
+
+    /* ..........features............ */
+    .features .container .inner .content .block h4 {
+        font-size: 16px;
+    }
+
+    .features .container .inner .content .block p {
+        font-size: 12px;
+    }
+
+    .features .container .inner .image img {
+        width: 180px;
+        height: 200px;
+    }
+
+    /* .............strategy.............. */
+
+    .strategy .container .inner .content h4 {
+        font-size: 14px;
+    }
+
+    .strategy .container .inner .teamblock .block img {
+        width: 140px;
+        height: 180px;
+    }
+
+    .strategy .container .inner .teamblock .block h4 {
+        font-size: 14px;
+    }
+
+    .strategy .container .inner .teamblock .block p {
+        font-size: 14px;
+    }
+
+    /* ..........story............. */
+    .story .container .inner {
+        padding: 50px 0 50px 45px;
+    }
+
+    .story .container .inner .content h4 {
+        font-size: 18px;
+    }
+
+    .story .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .story .container .inner .images .image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .story .container .inner .content .social {
+        padding-bottom: 0;
+    }
+
+    /* ............work................ */
+    .work .container .inner h3 {
+        font-size: 22px;
+    }
+
+    .work .container .inner .content .block .heading {
+        font-size: 16px;
+    }
+
+    .work .container .inner .content .block .text {
+        font-size: 14px;
+    }
+}

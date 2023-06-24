@@ -1,0 +1,264 @@
+@media screen and (max-width:1200px) {
+    .container {
+        padding: 0 3%;
+    }
+
+    .office .container .inner .ifram {
+        justify-content: center;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact ul {
+        flex-wrap: wrap;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .btn-invis {
+        display: initial;
+    }
+
+    .login-form {
+        transform: scale(0);
+    }
+
+    .login-form.active {
+        margin-top: 30px;
+        position: static;
+        display: block;
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:939px) {
+    header .container .logo-menu #menu-bar {
+        display: initial;
+    }
+
+    header .container .logo-menu #menu-bar:hover {
+        color: var(--base);
+    }
+
+    header .container .logo-menu .navbar {
+        position: absolute;
+        top: 78%;
+        left: 0;
+        right: 0;
+        background: var(--base);
+        transform: scale(0);
+        padding: 15px;
+    }
+
+    header .container .logo-menu .navbar.active {
+        transform: scale(1);
+        width: 40%;
+    }
+
+    header .container .logo-menu .navbar a {
+        display: block;
+        background: var(--white);
+        margin: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        color: var(--black);
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width:897px) {
+
+
+    footer .foot .foot2 .foot2_blog ul {
+        flex-wrap: wrap;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:760px) {
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+
+    .foot_copy p:first-child {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:625px) {
+    footer .foot {
+        display: block;
+    }
+
+    footer .foot .foot1 .foot1_desc {
+        font-size: 35px;
+        padding-top: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    footer .foot .foot1 a {
+        border: 1px solid var(--white);
+        padding: 7px;
+    }
+
+    footer .foot .foot2 .foot2_contact {
+        margin-top: 30px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+
+    .foot_copy p:first-child {
+        display: none;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width:588px) {
+    header .btn-head a:last-child {
+        display: initial;
+    }
+
+    header .btn-head a i {
+        padding: 0;
+    }
+
+    header .btn-head a:first-child {
+        display: none;
+    }
+
+    .office .container .inner .ifram .ifram1 iframe {
+        width: 100%;
+    }
+
+    .office .container .inner .ifram .ifram1 img {
+        width: 100%;
+    }
+
+    .office .container .inner .ifram .ifram1 p:first-child {
+        padding-left: 0;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+
+    .login-form.active {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:495px) {
+    .login-form.active form .login {
+        flex-wrap: wrap;
+    }
+
+    .login-form.active form .login .login-ne label input {
+        width: 100%;
+    }
+
+    .login-form.active form .login .login-ne:first-child label input {
+        margin-bottom: 25px;
+    }
+
+    .login-form.active form select {
+        width: 70%;
+        padding-right: 0;
+    }
+
+    .login-form form textarea {
+        width: 70%;
+    }
+
+    .login-form form .btn-form {
+        width: 70%;
+    }
+
+    header #menu-bar {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:465px) {
+
+    .imagner .container .inner .img-logoner {
+        display: none;
+    }
+
+    .contact .container .inner .contact-text h1 {
+        font-size: 54px;
+    }
+
+    .contact .container .inner .contact-text p {
+        font-size: 26px;
+    }
+
+    .contact .container .inner .tel-mel {
+        flex-wrap: wrap;
+    }
+
+    .contact .container .inner .tel-mel a {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .contact .container .inner .tel-mel a:last-child {
+        padding: 15px 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+    header #menu-bar {
+        margin-right: 10px;
+    }
+    footer .foot .foot1 .foot1_parr{
+        font-size: 12px;
+    }
+    footer .foot .foot2 .foot2_contact ul li a, .foot2_blog ul li a{
+        font-size: 12px;
+    }
+
+    header #menu-bar {
+        margin-right: 10px;
+    }
+
+    header .container .logo-menu .logo-text{
+        padding-right: 0;
+    } 
+}
+
+@media screen and (max-width:350px) {
+    header .container .logo-menu .logo-text{
+        font-size: 20px;
+    }
+    
+    .contact .container .inner .tel-mel a{
+        font-size: 13px;
+    }
+}

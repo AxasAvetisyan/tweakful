@@ -1,0 +1,317 @@
+@import url("../fonts/Inter/stylesheet.css");
+@import url("../fonts/Roboto/stylesheet.css");
+
+
+* {
+    margin: 0; padding: 0;
+    border: none; outline: none;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    font-family: 'Inter';
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 15px 25px;
+    text-transform: capitalize;
+}
+
+.btn .fa-solid{
+    padding-left:10px;
+}
+
+.main{
+    background-color: var(--baseDark);
+}
+
+
+
+.about .container .inner {
+    padding: 200px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .container .inner .content h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+.about .container .inner .content p {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+    padding: 30px 0 42px 0;
+}
+
+.about .container .inner .content .button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 90px;
+}
+
+.about .container .inner .content .button p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 40px;
+}
+
+.about .container .inner .content .images img {
+    padding-right: 30px;
+}
+
+/* ------------------------Hedline------------------- */
+
+.hedline .container .inner {
+    padding: 111px 0 40px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hedline .container .inner .content h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--white);
+}
+
+.hedline .container .inner .content p {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+    padding: 8px 0 36px 0;
+}
+
+.hedline .container .inner .content .big-div {
+    display: flex;
+    justify-content: start;
+    gap: 82px;
+}
+
+.hedline .container .inner .content .big-div .big h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    color: var(--white);
+}
+
+.hedline .container .inner .content .big-div .big h3 span {
+    font-size: 52px;
+}
+
+.hedline .container .inner .content .big-div .big p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+
+.hedline .container .inner .video video {
+    width: 530px;
+    border-radius: 3px;
+}
+
+/* -----------------------------Platform--------------------- */
+
+.platform .container .inner {
+    padding: 60px 0 20px 0;
+    margin-bottom: 157px;
+}
+
+.platform .container .inner .content h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    color: var(--white);
+}
+
+.platform .container .inner .content .big {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.platform .container .inner .content .big .min {
+    /* padding-right: 80px; */
+    width: 33%;
+}
+
+.platform .container .inner .content .big .min i {
+    color: var(--white);
+    font-size: 30px;
+    padding: 71px 0 20px 0;
+}
+
+.platform .container .inner .content .big .min h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.platform .container .inner .content .big .min p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+    padding-top: 7px;
+}
+
+/* ------------------------Story------------------------ */
+
+.story .container .inner {
+    background-color: var(--base);
+    margin-bottom: 115px;
+    padding: 119px 0 115px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story .container .inner .content h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--darkblack);
+}
+
+.story .container .inner .content .paragraph {
+    font-family: 'Inter';
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--black);
+    padding: 32px 0 38px 0;
+}
+
+.story .container .inner .content a p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--blue);
+    padding-bottom: 32px;
+}
+
+.story .container .inner .content p {
+    font-size: 40px;
+    color: #B4B4B4;
+}
+
+.story .container .inner .content p span {
+    font-size: 45px;
+    color: var(--blue);
+}
+
+/* ----------------------Busines--------------- */
+
+.busines .container .inner {
+    padding: 64px 0 20px 0;
+    margin-bottom: 74px;
+}
+
+.busines .container .inner .content h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--white);
+    padding-bottom: 80px;
+}
+
+.busines .container .inner .content .parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.busines .container .inner .content .parent h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--white);
+    padding: 16px 0 4px 0;
+}
+
+.busines .container .inner .content .parent p {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+
+.busines .container .inner .content .parent .child:nth-child(odd) {
+    background: url("../images/Line1.png") no-repeat;
+    background-size: auto;
+    background-position-x: 90px;
+    background-position-y: 10px;
+}
+
+.busines .container .inner .content .parent .child:nth-child(2) {
+    background: url("../images/Line2.png") no-repeat;
+    background-size: auto;
+    background-position-x: 90px;
+    background-position-y: 10px;
+}
+
+
+
+
+.closing .container .inner{
+    font-family: 'Inter';
+    padding: 110px 0;
+    
+}
+.closing .container .inner .content{
+    border-bottom: 2px solid #b4b4b4;
+    padding-bottom: 60px;
+}
+
+.closing .container .inner .content h2{
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+}
+.closing .container .inner .content p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 0 76px;
+    color: var(--white);
+
+}
+.closing .container .inner .content .icon{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.closing .container .inner .content .icon a i{
+    padding-left: 10px;
+}
+.closing .container .inner .images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 61px;
+}
+
+

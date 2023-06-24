@@ -1,0 +1,247 @@
+@import url("../fonts/Inter/stylesheet.css");
+@import url("../fonts/Roboto/stylesheet.css");
+
+
+:root {
+    --blackLogo: #1A1A1A;
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.btn-invis{
+    display: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    background: var(--blue);
+    color: var(--white);
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.btn i {
+    padding-left: 10px;
+}
+
+header .btn-head a:last-child {
+    display: none;
+}
+
+
+.contact {
+    background: var(--base);
+    font-family: 'Inter';
+    margin-top: 90px;
+}
+
+.contact .container{
+    position: relative;
+}
+
+.contact .container .inner .contact-text h1 {
+    padding-top: 110px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.contact .container .inner .contact-text p {
+    color: #64626A;
+    font-size: 20px;
+}
+
+.contact .container .inner .tel-mel {
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 72px;
+}
+
+.contact .container .inner .tel-mel a:first-child {
+    font-size: 16px;
+    color: var(--white);
+    background: var(--blue);
+    margin-right: 30px;
+    padding: 15px 20px;
+}
+
+.contact .container .inner .tel-mel a:last-child {
+    font-size: 16px;
+    color: var(--blue);
+    background: var(--white);
+    margin-right: 30px;
+    padding: 15px 20px;
+    border: 1px solid var(--blue);
+}
+
+/* login */
+
+.login-form {
+    width: 487px;
+    background: var(--white);
+    border: 1px solid var(--gray);
+    position: absolute;
+    top: 109px;
+    right: 0;
+    padding: 30px;
+}
+
+.login-form form h2 {
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.login-form form p {
+    font-family: 'Inter';
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.login-form form .login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form form .login .login-ne label {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+
+.login-form form .login .login-ne label span {
+    color: var(--blue)
+}
+
+.login-form form .login .login-ne label input {
+    border: 1px solid var(--gray);
+    padding: 17px 0 18px 18px;
+    margin-top: 11px;
+    margin-right: 20px;
+    font-family: 'Inter';
+}
+.login-form form h3 {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 700;
+    padding: 24px 0 11px 0;
+}
+
+.login-form form h3 span {
+    color: var(--blue);
+}
+
+.login-form form select {
+    border: 1px solid var(--gray);
+    padding: 17px 65% 18px 18px;
+}
+
+.login-form form textarea {
+    width: 427px;
+    height: 122px;
+    border: 1px solid var(--gray);
+    padding: 17px 0 0 18px;
+    resize: none;
+}
+
+.login-form form textarea::placeholder {
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+.login-form form .btn-form {
+    width: 100%;
+    padding: 17px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 28px;
+}
+
+
+
+.imagner .container .inner .img-logoner {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+}
+
+.imagner .container .inner .img-logoner img {
+    padding: 60px 0 100px 30px;
+}
+
+.imagner .container .inner .img-logoner img:first-child {
+    padding-left: 0;
+}
+
+.office .container .inner .ifram{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    flex-wrap: wrap     ;
+}
+
+.office .container .inner .ifram .ifram1:first-child h2{
+    color: #000000;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 15%;
+}
+
+.office .container .inner .ifram .ifram1 p:first-child{
+    color: #64626A;
+    font-size: 20px;
+    padding-bottom: 17.5%;
+}
+
+.office .container .inner .ifram .ifram1 h4{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    color: var(--darkblack);
+}
+
+.office .container .inner .ifram .ifram1 p{
+    font-size: 20px;
+    padding-bottom: 8%;
+    padding-left: 7%;
+    color: var(--black);
+    padding-left: 7%;
+
+}
+.office .container .inner .ifram .ifram1 a{
+    color: var(--blue);
+    padding-left: 7%;
+    font-weight: 600;
+    font-size: 20px;
+}

@@ -1,0 +1,83 @@
+:root {
+    --blackLogo: #1A1A1A;
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+
+header .btn-head a:last-child{
+    display: none;
+}
+
+
+header #menu-bar{
+    border: 2px solid var(--blue);
+    padding: 15px;
+    color: var(--blue);
+    border-radius: 2px;
+    margin-right: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    z-index: 1000;
+    background: var(--white);
+    padding-bottom: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+header .container .logo-menu .logo-img {
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+header .container .logo-menu .logo-text {
+    color: var(--blackLogo);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-right: 50px;
+    font-family: 'Inter';
+}
+
+header .container .logo-menu .navbar {
+    margin-top: 15px;
+    font-family: 'Inter';
+}
+
+header .container .logo-menu .navbar a {
+    padding-right: 30px;
+    color: var(--darkblack);
+    font-size: 16px;
+}
+
+header .container .btn-head {
+    margin-top: 15px;
+}
+
+header .container .btn-head .btn {
+    background-color: #2E4FD7;
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 14px;
+    padding: 5px 20px;
+}

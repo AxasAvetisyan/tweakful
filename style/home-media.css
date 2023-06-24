@@ -1,0 +1,887 @@
+:root {
+    --blackLogo: #1A1A1A;
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        padding: 0 3%;
+    }
+
+    /* hedline */
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 41px;
+    }
+
+    /* benefit */
+
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 32px;
+    }
+
+    /* working */
+
+    .working .container .inner .block .works {
+        width: 45%;
+    }
+
+    .story .container .inner .story-text p {
+        font-size: 35px;
+        color: var(--black);
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width:1082px) {
+
+    .story .container .inner .story-text p {
+        font-size: 28px;
+        color: var(--black);
+        padding-bottom: 32px;
+    }
+
+    .story .container .inner .story-img img {
+        width: 320px;
+        height: 400px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact ul {
+        flex-wrap: wrap;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .btn {
+        padding: 15px 20px;
+    }
+
+    /* headline */
+    .headline_1 .container .inner .content .btn-text .dec_2 {
+        font-size: 15px;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 390px;
+        height: 490px;
+    }
+
+    /* benefit  */
+    .benefit .container .inner {
+        flex-wrap: wrap;
+    }
+
+    .benefit .container .inner .headL-dec {
+        order: 1;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .benefit .container .inner .blocks {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .benefit .container .inner .blocks .block {
+        text-align: center;
+        display: block;
+        margin-left: 150px;
+    }
+
+    .benefit .container .inner .blocks .block .logo-icon {
+        margin-bottom: 15px;
+    }
+
+    /* story */
+
+    .story .container .inner .story-text p {
+        font-size: 25px;
+    }
+
+    .story .container .inner .story-img img {
+        width: 320px;
+        height: 400px;
+    }
+
+    /* footer */
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 33%;
+    }
+
+}
+
+@media screen and (max-width:924px) {
+    .headline_1 .container .inner .img-girl img {
+        width: 350px;
+        height: 450px;
+    }
+
+    .story .container .inner .story-img img {
+        height: 365px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 18px;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 350px;
+        height: 425px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width:891px) {
+    header .container .logo-menu #menu-bar {
+        display: initial;
+    }
+
+    header .container .logo-menu #menu-bar:hover {
+        color: var(--base);
+    }
+
+    header .container .logo-menu .navbar {
+        position: absolute;
+        top: 78%;
+        left: 0;
+        right: 0;
+        background: var(--base);
+        transform: scale(0);
+        padding: 15px;
+    }
+
+    header .container .logo-menu .navbar.active {
+        transform: scale(1);
+        width: 40%;
+    }
+
+    header .container .logo-menu .navbar a {
+        display: block;
+        background: var(--white);
+        margin: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        color: var(--black);
+    }
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 38px;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 300px;
+        height: 380px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 50px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    footer .foot .foot2 .foot2_blog ul {
+        flex-wrap: wrap;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:867px) {
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 46px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 17px;
+    }
+
+    .inpact .container .inner .images img {
+        width: 105px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:824px) {
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 37px;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 280px;
+        height: 360px;
+    }
+
+    .working .container .inner h2 {
+        text-align: center;
+    }
+
+    .story .container .inner .story-img img {
+        width: 280px;
+        height: 340px;
+    }
+
+    .inpact .container .inner .images img {
+        width: 100px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 45px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:792px) {
+    .headline_1 .container .inner .content h1 {
+        font-size: 36px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .headline_1 .container .inner .content h1 {
+        font-size: 33px;
+    }
+
+    .story .container .inner .story-img img {
+        width: 265px;
+        height: 300px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width:752px) {
+    .headline_1 .container .inner .img-girl img {
+        width: 262px;
+        height: 340px;
+    }
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 32px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:738px) {
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 30px;
+    }
+
+    .headline_1 .container .inner .content .btn-text .dec_2 {
+        font-size: 14px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 16px;
+    }
+
+    .headline_1 .container .inner .content .imgs {
+        display: none;
+    }
+
+    .story .container .inner .story-img img {
+        width: 255px;
+        height: 290px;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+
+    .working .container .inner .block .works {
+        width: 100%;
+    }
+
+    .working .container .inner .block .works:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .working .container .inner .block .works p {
+        padding-right: 75px;
+    }
+
+    .working .container .inner .block .works .icon {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width:715px) {
+
+    .btn {
+        padding: 10px 11px;
+        font-size: 14.6px;
+    }
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 28px;
+    }
+
+    .headline_1 .container .inner .content .imgs img {
+        width: 110px;
+    }
+
+    .story .container .inner .story-text p {
+        font-size: 23px;
+    }
+
+    .story .container .inner .story-text h3 {
+        font-size: 35px;
+    }
+
+    .process .container .inner .blocks .dashet .dashet-text p:last-child {
+        font-size: 14px;
+    }
+
+    .process .container .inner .blocks .dashet .dashet-text p:first-child {
+        font-size: 26px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 38px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 14px;
+    }
+
+    .inpact .container .inner .images img {
+        width: 95px;
+    }
+}
+
+@media screen and (max-width:683px) {
+    .headline_1 .container .inner .img-girl img {
+        width: 250px;
+        height: 320px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        margin-right: 4%;
+    }
+
+    .btn {
+        padding: 10px 10px;
+    }
+
+    .benefit .container .inner .blocks .logo-icon i {
+        padding: 25px;
+        font-size: xx-large;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:first-child {
+        font-size: 40px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:last-child {
+        font-size: 25px;
+    }
+
+    .story .container .inner .story-img img {
+        width: 230px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:668px) {
+    .story .container .inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .story .container .inner .story-img {
+        order: 1;
+        padding-bottom: 0;
+        margin-top: 60px;
+    }
+
+    .story .container .inner .story-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .story .container .inner .story-text {
+        order: 2;
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .story .container .inner .story-text h3 {
+        font-size: 55px;
+    }
+
+    .story .container .inner .story-text p {
+        font-size: 30px;
+    }
+
+    .story .container .inner .story-text .story-btn a {
+        font-size: 20px;
+    }
+
+    .process .container .inner h3 {
+        text-align: center;
+    }
+
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 40px;
+    }
+
+    .benefit .container .inner .headL-dec p {
+        font-size: 25px;
+    }
+
+    .benefit .container .inner .headL-dec .btn {
+        font-size: 25px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 40px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 20px;
+    }
+
+    .inpact .inner .inpact_text .btn_div .btn {
+        font-size: 25px;
+    }
+
+    .inpact .container .inner .images img {
+        width: 80px;
+    }
+
+    .inpact .container .inner .images {
+        padding-bottom: 60px;
+    }
+
+    .headline_1 .container .inner {
+        display: block;
+    }
+
+    .headline_1 .container .inner .content h1 {
+        text-align: center;
+        padding-right: 0;
+        font-size: 45px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        text-align: center;
+        margin-right: 0;
+        font-size: 40px;
+    }
+
+    .headline_1 .container .inner .content .btn-text {
+        display: block;
+        text-align: center;
+    }
+
+    .headline_1 .container .inner .content .btn-text a {
+        font-size: 40px;
+    }
+
+    .headline_1 .container .inner .content .btn-text a {
+        font-size: 40px;
+    }
+
+    .headline_1 .container .inner .content .btn-text .dec_2 {
+        font-size: 24px;
+        padding-top: 34px;
+        padding-left: 0;
+    }
+
+    .headline_1 .container .inner .img-girl {
+        text-align: center;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .foot_copy p:first-child {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:607px) {
+    footer .foot {
+        display: block;
+    }
+
+    footer .foot .foot1 .foot1_desc {
+        font-size: 35px;
+        padding-top: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    footer .foot .foot1 a {
+        border: 1px solid var(--white);
+        padding: 7px;
+    }
+
+    footer .foot .foot2 .foot2_contact {
+        margin-top: 30px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+
+    .foot_copy p:first-child {
+        display: none;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 26px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:first-child {
+        font-size: 36px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:last-child {
+        font-size: 20px;
+    }
+
+    .process .container .inner .blocks {
+        flex-wrap: wrap;
+    }
+
+    .process .container .inner .blocks .dashet:nth-child(n+3) {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .process .container .inner .blocks .dashet:nth-child(4) {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:574px) {
+    header .btn-head a:first-child {
+        display: none;
+    }
+
+    header .btn-head a:last-child {
+        display: initial;
+        padding: 0;
+    }
+
+    header .btn-head a i:last-child {
+        padding: 0;
+    }
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 40px;
+    }
+
+    .headline_1 .container .inner .content .btn-text a {
+        font-size: 20px;
+    }
+
+    .headline_1 .container .inner .content .btn-text .dec_2 {
+        font-size: 16px;
+    }
+
+    .headline_1 .container .inner .img-girl img {
+        width: 65%;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:last-child {
+        font-size: 16px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:first-child {
+        font-size: 26px;
+    }
+
+    .working .container .inner h2 {
+        font-size: 40px;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 35px;
+    }
+
+    .benefit .container .inner .headL-dec p {
+        font-size: 20px;
+    }
+
+    .benefit .container .inner .headL-dec .btn {
+        font-size: 20px;
+    }
+
+    .benefit .container .inner .blocks .logo-icon i {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:last-child {
+        font-size: 13px;
+    }
+
+    .working .container .inner h2 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .working .container .inner .block .works {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .working .container .inner .block .works .icon {
+        margin: 0;
+    }
+
+    .working .container .inner .block .works p:first-child {
+        padding: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .working .container .inner .block .works p:last-child {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .inpact .container .inner .images img {
+        width: 65px;
+    }
+
+    .process .container .inner .blocks .dashet {
+        width: 100%;
+    }
+
+    .process .container .inner .blocks .dashet:nth-child(2) {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .process .container .inner .blocks .dashet .dashet-text p:first-child {
+        font-size: 30px;
+    }
+
+    .process .container .inner .blocks .dashet .dashet-text p:last-child {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 30px;
+    }
+
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 35px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 34px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 17px;
+    }
+
+    .inpact .container .inner .images {
+        padding: 20px;
+    }
+
+    .inpact .container .inner .images img {
+        display: none;
+    }
+
+    .inpact .inner .inpact_text .btn_div .btn {
+        font-size: 20px;
+    }
+
+    .benefit .container .inner {
+        margin-top: 50px;
+    }
+
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:440px) {
+
+    .headline_1 .container .inner .content h1 {
+        font-size: 30px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 15px;
+    }
+
+    header #menu-bar {
+        margin-right: 10px;
+    }
+
+    header .container .logo-menu .logo-text{
+        padding-right: 0;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:last-child {
+        font-size: 14px;
+    }
+
+    .benefit .container .inner .blocks .logo-dec p:first-child {
+        font-size: 30px;
+    }
+
+    .story .container .inner .story-text h3 {
+        font-size: 45px;
+    }
+
+    .story .container .inner .story-text p {
+        font-size: 25px;
+    }
+
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 30px;
+    }
+
+    .inpact {
+        margin-top: 50px;
+    }
+
+    .inpact .inner .inpact_text h2 {
+        padding-top: 50px;
+    }
+
+    .inpact .container .inner .inpact_text p {
+        font-size: 16px;
+    }
+
+    .benefit .container .inner .headL-dec .btn {
+        font-size: 15px;
+    }
+
+    .benefit .container .inner .headL-dec p {
+        font-size: 18px;
+    }
+
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 25px;
+    }
+
+    .story .container .inner {
+        margin-top: 50px
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+
+    .benefit .container .inner .blocks .block {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:365px) {
+    footer .foot .foot1 .foot1_parr{
+        font-size: 12px;
+    }
+    footer .foot .foot2 .foot2_contact ul li a, .foot2_blog ul li a{
+        font-size: 12px;
+    }
+    .benefit .container .inner .blocks .logo-dec p:first-child {
+        font-size: 25px;
+    }
+
+    .benefit .container .inner .headL-dec p {
+        font-size: 15px;
+    }
+    .benefit .container .inner .headL-dec h2 {
+        font-size: 20px;
+    }
+
+    .headline_1 .container .inner .content .dec_1 {
+        font-size: 13px;
+    }
+    .headline_1 .container .inner .content h1 {
+        font-size: 24px;
+    }
+
+    .story .container .inner .story-text h3 {
+        font-size: 40px;
+    }
+    .story .container .inner .story-text .story-btn a {
+        font-size: 15px;
+    }
+
+    .story .container .inner .story-text p {
+        font-size: 20px;
+    }
+
+    .process .container .inner .blocks .dashet .dashet-text p:last-child {
+        font-size: 17px;
+    }
+    .inpact .container .inner .inpact_text h2 {
+        font-size: 26px;
+    }
+    .process .container .inner .blocks .dashet .dashet-text p:first-child {
+        font-size: 25px;
+    }
+    .foot_copy p:last-child {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    header .container .logo-menu .logo-text{
+        font-size: 20px;
+    }
+}

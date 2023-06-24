@@ -1,0 +1,987 @@
+@media(max-width: 1200px) {
+
+    .container {
+        padding: 0 5%;
+    }
+
+    .about .container .inner .content h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .about .container .inner .content .button p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .about .container .inner .content .button {
+        padding-bottom: 50px;
+    }
+
+    .about .container .inner .img img {
+        width: 350px;
+    }
+
+    /* ---------------------hedline----------------- */
+    .hedline .container .inner .content h2 {
+        font-size: 45px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 {
+        font-size: 45px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 span {
+        font-size: 35px;
+    }
+
+    .hedline .container .inner .content .big-div .big p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .hedline .container .inner .video video {
+        width: 420px;
+    }
+
+    /* ---------------------------platform------------------------- */
+    .platform .container .inner .content h2 {
+        font-size: 55px;
+        line-height: 75px;
+    }
+
+    .platform .container .inner .content .big .min p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    /* -----------------------Story----------------- */
+    .story .container .inner {
+        padding-bottom: 40px;
+    }
+
+    .story .container .inner .content h2 {
+        font-size: 45px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .story .container .inner .img img {
+        width: 350px;
+        padding-right: 30px;
+    }
+
+    .busines .container .inner .content h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .closing .container .inner .content h2 {
+        font-size: 44px;
+    }
+
+    
+    footer .container .inner .content .foot .foot2 .foot2_contact ul {
+        flex-wrap: wrap;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 33%;
+    }
+}
+
+@media(max-width: 1080px) {
+    .about .container .inner .content p {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .hedline .container .inner .content .big-div .big p {
+        font-size: 14px;
+    }
+
+    .platform .container .inner .content h2 {
+        text-align: center;
+    }
+
+    .platform .container .inner .content .big {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .platform .container .inner .content .big .min h3 {
+        font-size: 25px;
+    }
+
+    .platform .container .inner .content .big .min p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .platform .container .inner .content .big .min {
+        width: 50%;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .about .container .inner .content .btn {
+        padding: 12px;
+    }
+
+    .about .container .inner .img img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .about .container .inner .content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 20px;
+    }
+
+    .about .container .inner .content .button {
+        padding-bottom: 50px;
+    }
+
+    .about .container .inner .content .button p {
+        font-size: 20px;
+        line-height: 35px;
+
+    }
+
+    .about .container .inner .content .images img {
+        padding-right: 20px;
+        width: 30%;
+    }
+
+    /* -------------------hedline------------ */
+    .hedline .container .inner {
+        margin-top: -50px;
+        display: block;
+    }
+
+    .hedline .container .inner .content {
+        text-align: center;
+    }
+
+    .hedline .container .inner .content .big-div {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hedline .container .inner .content .big-div .big p {
+        font-size: 14px;
+    }
+
+    .hedline .container .inner .content h2 {
+        font-size: 35px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 25px;
+        line-height: 46px;
+        padding-bottom: 10px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 {
+        font-size: 48px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 span {
+        font-size: 32px;
+    }
+
+    .hedline .container .inner .video video {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    /* -------------story------------------ */
+    .story .container .inner {
+        padding-bottom: 50px;
+    }
+
+    .story .container .inner .content h2 {
+        font-size: 40px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .story .container .inner .img img {
+        width: 330px;
+        height: 350px;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 11px;
+    }
+
+    .closing .container .inner .content h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 16px;
+    }
+
+    .closing .container .inner .images img {
+        width: 12%;
+    }
+
+}
+
+@media screen and (max-width:978px) {
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:936px) {
+
+    header .container .logo-menu #menu-bar {
+        display: initial;
+    }
+
+    header .container .logo-menu #menu-bar:hover {
+        color: var(--base);
+    }
+
+    header .container .logo-menu .navbar {
+        position: absolute;
+        top: 78%;
+        left: 0;
+        right: 0;
+        background: var(--base);
+        transform: scale(0);
+        padding: 15px;
+    }
+
+    header .container .logo-menu .navbar.active {
+        transform: scale(1);
+        width: 40%;
+    }
+
+    header .container .logo-menu .navbar a {
+        display: block;
+        background: var(--white);
+        margin: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        color: var(--black);
+    }
+
+
+
+    footer .foot .foot2 .foot2_blog ul {
+        flex-wrap: wrap;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .hedline .container .inner .video {
+        text-align: center;
+    }
+
+    .hedline .container .inner .video video {
+        width: 90%;
+        padding: 40px 0;
+    }
+
+    .platform .container .inner .content .big .min p {
+        font-size: 23px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .busines .container .inner .content h2 {
+        text-align: center;
+    }
+
+    .busines .container .inner .content .parent {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .busines .container .inner .content .parent .child {
+        width: 45%;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 16px;
+        line-height: 34px;
+        padding: 20px 12px;
+    }
+
+    .busines .container .inner .content .parent h3 {
+        font-size: 30px;
+    }
+
+    .busines .container .inner .content .parent .child:nth-child(odd) {
+        background: url("none");
+    }
+
+    .busines .container .inner .content .parent .child:nth-child(2) {
+        background: url("none");
+    }
+
+    .closing .container .inner .content h2 {
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 14px;
+    }
+
+    .closing .container .inner .content .icon .btn {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 875px) {
+    .about .container .inner .img img {
+        width: 270px;
+        height: 300px;
+    }
+
+    .about .container .inner .content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about .container .inner .content .button p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .story .container .inner .img img {
+        width: 300px;
+        height: 310px;
+    }
+
+    .busines .container .inner .content .parent img {
+        width: 60px;
+    }
+
+    .busines .container .inner .content .parent h3 {
+        font-size: 25px;
+        padding: 10px 0 10px;
+    }
+}
+
+@media(max-width: 845px) {
+    .story .container .inner .content h2 {
+        font-size: 35px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .story .container .inner .img img {
+        width: 270px;
+        height: 270px;
+    }
+
+    
+    .platform .container .inner .content .big .min p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 810px){
+        /* ...........closing............ */
+        .closing .container {
+            padding: 0 10%;
+        }
+    
+        .closing .container .inner {
+            padding: 50px 0;
+        }
+    
+        .closing .container .inner .content h2 {
+            font-size: 24px;
+            padding-bottom: 30px;
+        }
+    
+        .closing .container .inner .content p {
+            font-size: 14px;
+        }
+    
+        .closing .container .inner .content .icon .btn {
+            padding: 10px;
+        }
+    
+        .closing .container .inner .images {
+            display: none;
+        }
+}
+
+@media(max-width: 790px) {
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+
+
+    .about .container .inner .content h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+
+    .about .container .inner .content .button p {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 {
+        font-size: 40px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .story .container .inner .img img {
+        width: 251px;
+        height: 300px;
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 750px) {
+    .about .container .inner .img img {
+        width: 230px;
+        height: 260px;
+    }
+
+    .story .container .inner .img img {
+        width: 251px;
+        height: 260px;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 15px;
+        padding: 5px 12px;
+    }
+}
+
+@media(max-width: 739px) {
+    .platform .container .inner .content .big .min h3 {
+        font-size: 20px;
+    }
+
+    .platform .container .inner .content .big .min p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 719px) {
+    .about .container .inner .content .btn {
+        padding: 10px 8px;
+    }
+
+    .platform .container .inner .content h2 {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .story .container .inner {
+        padding: 80px 0 50px 50px;
+    }
+
+    .closing .container .inner .content h2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 687px) {
+    .about .container .inner .img img {
+        width: 190px;
+        height: 243px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 19px;
+        line-height: 35px;
+        margin-bottom: -25px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 {
+        font-size: 30px;
+    }
+
+    .hedline .container .inner .content .big-div .big h3 span {
+        font-size: 25px;
+    }
+
+    .story .container .inner .img img {
+        width: 230px;
+        height: 240px;
+    }
+
+    .busines .container .inner {
+        padding-top: 64px;
+        margin-bottom: 20px;
+    }
+
+    .busines .container .inner .content h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .busines .container .inner .content .parent {
+        display: block;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 19px;
+        padding: 5px 12px 30px;
+    }
+
+    .busines .container .inner .content .parent .child:nth-child(odd) {
+        background: url("none");
+        margin: 0 auto;
+    }
+
+    .busines .container .inner .content .parent .child:nth-child(2) {
+        background: url("none");
+        margin: 0 auto;
+    }
+
+    .busines .container .inner .content .parent .child {
+        width: 100%;
+    }
+    .platform .container .inner .content .big .min {
+        width: 100%;
+    }
+}
+
+@media(max-width: 650px) {
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 100%;
+    }
+
+
+    .about .container .inner {
+        display: block;
+    }
+
+    .about .container .inner .content h1 {
+        font-size: 45px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .about .container .inner .content p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .about .container .inner .content .button {
+        display: block;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .about .container .inner .content .button p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about .container .inner .content .images {
+        text-align: center;
+    }
+
+    .about .container .inner .img {
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .about .container .inner .img img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .platform .container .inner .content .big {
+        display: block;
+    }
+
+    .platform .container .inner .content .big .min i {
+        font-size: 45px;
+    }
+
+    .platform .container .inner .content .big .min h3 {
+        font-size: 25px;
+    }
+
+    .platform .container .inner .content .big .min p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media(max-width: 635px) {
+    .story .container .inner {
+        text-align: center;
+        padding-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .story .container .inner .content {
+        order: 2;
+    }
+
+    .story .container .inner .img {
+        width: 230px;
+        height: 240px;
+        order: 1;
+    }
+
+    .story .container .inner .content h2 {
+        font-size: 40px;
+        padding-top: 25px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    .closing .container .inner .content h2 {
+        font-size: 18px;
+    }
+
+
+    footer .foot {
+        display: block;
+    }
+
+    footer .foot .foot1 .foot1_desc {
+        font-size: 35px;
+        padding-top: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    footer .foot .foot1 a {
+        border: 1px solid var(--white);
+        padding: 7px;
+    }
+
+    footer .foot .foot2 .foot2_contact {
+        margin-top: 30px;
+    }
+
+    footer .container .inner .content .foot .foot2 .foot2_contact>ul li {
+        width: 50%;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 50%;
+    }
+
+    .foot_copy p:first-child {
+        display: none;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width: 595px) {
+
+    .about .container .inner .img img {
+        width: 280px;
+        height: 330px;
+    }
+    .hedline .container .inner .content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .platform .container .inner .content h2 {
+        font-size: 39px;
+        line-height: 60px;
+    }
+
+    .busines .container .inner .content h2 {
+        text-align: center;
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:574px) {
+    header .btn-head a:first-child {
+        display: none;
+    }
+
+    header .btn-head a:last-child {
+        display: initial;
+        padding: 0;
+    }
+
+    header .btn-head a i:last-child {
+        padding: 0;
+    }
+    
+    .foot_copy p:last-child {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 550px){
+    .closing .container .inner .content h2 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    .closing .container .inner .content .icon .btn {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .closing .container .inner .images {
+        display: none;
+    }
+}
+
+@media(max-width: 535px) {
+    .about .container .inner .content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .about .container .inner .content .button p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .hedline .container .inner .content .big-div .big p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .hedline .container .inner .content .big-div {
+        display: block;
+    }
+}
+
+@media(max-width: 495px) {
+    .hedline .container .inner .content p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+
+    .busines .container .inner .content h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .about .container .inner .img img {
+        width: 260px;
+        height: 300px;
+    }
+
+    footer .foot .foot2 .foot2_blog ul li {
+        width: 100%;
+    }
+}
+
+@media(max-width: 445px) {
+    
+    header #menu-bar {
+        margin-right: 10px;
+    }
+
+    header .container .logo-menu .logo-text{
+        padding-right: 0;
+    }
+    
+    .about .container .inner .content h1 {
+        font-size: 35px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 27px;
+        line-height: 39px;
+    }
+
+    .platform .container .inner .content h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 435px) {
+    .about .container .inner .content p {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    .busines .container .inner .content h2 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 410px){
+    .closing .container .inner .content h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .closing .container .inner .content p {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+}
+
+@media(max-width: 390px) {
+    .about .container .inner .content h1 {
+        font-size: 29px;
+    }
+
+    .platform .container .inner .content h2 {
+        font-size: 27px;
+        line-height: 48px;
+    }
+
+    .story .container .inner .content .paragraph {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .story .container .inner .content h2 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:365px) {
+    .about .container .inner .img img {
+        width: 250px;
+        height: 280px;
+    }
+
+    footer .foot .foot1 .foot1_parr {
+        font-size: 12px;
+    }
+
+    footer .foot .foot2 .foot2_contact ul li a,
+    .foot2_blog ul li a {
+        font-size: 12px;
+    }
+
+    .foot_copy p:last-child {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 357px) {
+    .about .container .inner .content h1 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+    .about .container .inner .content p {
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .hedline .container .inner .content p {
+        font-size: 17px;
+        line-height: 39px;
+    }
+
+    .busines .container .inner .content .parent p {
+        font-size: 26px;
+        padding: 5px 12px 30px;
+    }
+
+    .busines .container .inner .content h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    header .container .logo-menu .logo-text {
+        font-size: 20px;
+    }
+}

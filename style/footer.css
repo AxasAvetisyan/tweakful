@@ -1,0 +1,86 @@
+footer{
+    background-color: var(--baseDark);
+}
+footer .foot{
+    display: flex;
+    justify-content: space-between;
+}
+footer .foot .foot1 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+    cursor: pointer;
+}
+footer .foot .foot1 .foot1_desc{
+    font-family: 'Leifa';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--white);
+    margin: 70px 0 33px 0;
+}
+footer .foot .foot1 .foot1_par{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+    margin-bottom: 6px;
+}
+
+footer .foot .foot1 .foot1_parr{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+    margin-bottom: 17px;
+}
+footer .foot .foot2 .foot2_contact{
+    margin-top: 122px;
+    margin-bottom: 32px;
+}
+footer .foot .foot2 .foot2_contact ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer .foot .foot2 .foot2_contact ul li,.foot2_blog ul li{
+    list-style-type: none;
+}
+footer .foot .foot2 .foot2_contact ul li a,.foot2_blog ul li a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 25px;
+    color: var(--white);
+}
+footer .foot .foot2 .foot2_blog ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.foother_hr{
+    margin-top: 32px;
+    width: 100%;
+    border: 2px solid var(--white);
+    margin-bottom: 31px;
+}
+.foot_copy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.foot_copy p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--white);
+}

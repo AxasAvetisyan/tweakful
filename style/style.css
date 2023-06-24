@@ -1,0 +1,335 @@
+@import url("../fonts/Inter/stylesheet.css");
+@import url("../fonts/Roboto/stylesheet.css");
+
+:root {
+    --blackLogo: #1A1A1A;
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    background: var(--blue);
+    color: var(--white);
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.btn i {
+    padding-left: 10px;
+}
+
+
+/* Headline 1 */
+
+.headline_1 .container .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.headline_1 .container .inner .content h1 {
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--darkblack);
+    padding: 140px 100px 30px 0;
+}
+
+.headline_1 .container .inner .content .dec_1 {
+    font-size: 20px;
+    padding-bottom: 45px;
+    color: #1E1E1E;
+}
+
+.headline_1 .container .inner .content .btn-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.headline_1 .container .inner .content .btn-text .dec_2 {
+    font-size: 16px;
+    padding-left: 20px;
+    color: var(--black);
+}
+
+.headline_1 .container .inner .content .imgs img:nth-child(2) {
+    padding: 0 20px;
+}
+
+.headline_1 .container .inner .img-girl {
+    margin-top: 100px;
+}
+
+/* Benefit */
+
+.benefit .container .inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 131px;
+}
+
+.benefit .container .inner .blocks .block {
+    display: flex;
+    padding-bottom: 50px;
+    margin-right: 160px;
+}
+
+.benefit .container .inner .blocks .logo-icon i {
+    background-color: #E7EBFC;
+    border-radius: 50%;
+    color: #2E4FD7;
+    padding: 17px;
+}
+
+.benefit .container .inner .blocks .logo-dec {
+    padding-left: 25px;
+}
+
+.benefit .container .inner .blocks .logo-dec p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter';
+    padding-bottom: 5px;
+}
+
+.benefit .container .inner .blocks .logo-dec p:last-child {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.benefit .container .inner .headL-dec h2 {
+    font-size: 38px;
+    font-family: 700;
+    font-family: 'Inter';
+    padding-bottom: 20px;
+    color: var(--black);
+}
+
+.benefit .container .inner .headL-dec p {
+    font-size: 20px;
+    color: var(--black);
+    padding-bottom: 30px;
+    font-family: 'Inter';
+}
+
+/* working */
+
+.working .container .inner h2 {
+    margin-top: 100px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #18191F;
+    font-family: 'Inter';
+}
+
+.working .container .inner .block {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.working .container .inner .block .works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working .container .inner .block .works:nth-child(n+3) {
+    padding-top: 50px;
+}
+
+.working .container .inner .block .works p:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    color: #18191F;
+}
+
+.working .container .inner .block .works p:last-child {
+    font-size: 16px;
+    padding-left: 40px;
+    color: #18191F;
+}
+
+
+/* story */
+
+.story .container .inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    margin-top: 115px;
+    background-color: var(--base);
+}
+
+.story .container .inner .story-text {
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.story .container .inner .story-text h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--darkblack);
+    padding-bottom: 32px;
+}
+
+.story .container .inner .story-text p {
+    font-size: 42px;
+    color: var(--black);
+    padding-bottom: 32px;
+}
+
+.story .container .inner .story-text .story-btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.story .container .inner .story-text .story-btn a {
+    color: var(--blue);
+}
+
+.story .container .inner .story-text .dots span:first-child {
+    color: var(--blue);
+    font-size: 60px;
+}
+
+.story .container .inner .story-text .dots span:nth-child(n+2) {
+    color: #B4B4B4;
+    font-size: 60px;
+}
+
+.story .container .inner .story-img {
+    margin-top: 115px;
+    padding-bottom: 115px;
+}
+
+/* process */
+
+.process .container .inner h3 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: #18191F;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.process .container .inner .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process .container .inner .blocks .dashet:nth-child(n+2) {
+    margin-left: 55px;
+}
+
+.process .container .inner .blocks .dashet .cir-das {
+    display: flex;
+}
+
+.process .container .inner .blocks .dashet .cir-das .circle {
+    border-radius: 50%;
+    background: var(--blue);
+    margin-right: 25px;
+    padding: 15px;
+}
+
+.process .container .inner .blocks .dashet .cir-das .dash {
+    opacity: 40%;
+    width: 100%;
+    border-top: 2px dashed var(--blue);
+    margin-top: 10px;
+}
+
+.process .container .inner .blocks .dashet:last-child .cir-das .dash {
+    border: none;
+}
+
+.process .container .inner .blocks .dashet .dashet-text p:first-child {
+    color: #18191F;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.process .container .inner .blocks .dashet .dashet-text p:last-child {
+    color: #18191F;
+    font-family: 'Inter';
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+
+/* Inpact */
+
+.inpact {
+    background: var(--base);
+    margin-top: 76px;
+}
+
+.inpact .inner .inpact_text {
+    border-bottom: 2px solid #B4B4B4;
+    padding-bottom: 45px;
+}
+
+.inpact .inner .inpact_text h2 {
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--darkblack);
+    font-size: 52px;
+    font-weight: 700;
+    padding-top: 103px;
+    padding-bottom: 25px;
+}
+
+.inpact .inner .inpact_text p {
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--black);
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.inpact .inner .inpact_text .btn_div {
+    text-align: center;
+}
+
+.inpact .container .inner .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.inpact .inner .container .images img:nth-child(3) {
+    padding-top: 10px;
+}

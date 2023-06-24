@@ -1,0 +1,367 @@
+@import url("../fonts/Inter/stylesheet.css");
+@import url("../fonts/Roboto/stylesheet.css");
+
+:root {
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 15px 20px;
+    text-transform: capitalize;
+    font-family: 'Inter';
+}
+
+.main header {
+    background-color: var(--white);
+}
+
+
+
+
+/* ////////////////////LIBRARI///////////////// */
+
+.library{
+    background-color: var(--base);
+    padding: 163px 0 99px 0 ;
+}
+.library .container .inner h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: var(--darkblack);
+}
+
+.library .container .inner p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: italic;
+    padding: 31px 0 36px 0;
+}
+
+.library .container .inner .imgtext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.library .container .inner .imgtext .h4span{
+    padding-left: 24px;
+}
+.library .container .inner .imgtext .h4span :nth-child(1){
+    padding-bottom: 7px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+}
+.library .container .inner .imgtext .h4span :nth-child(2){
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+.library .container .div-bt i{
+    padding-left: 10px;
+}
+
+ /* ///////////////MATTERS//////////////// */
+
+ .matters {
+    background-color: var(--blue);
+    font-family: 'Inter';
+    padding: 70px 0;
+    color: var(--white);
+}
+.matters .container .inner h4{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.matters .container .inner p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 0 55px;
+}
+.matters .container .inner .content{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.matters .container .inner .content .block{
+    border-right: 1px solid;
+    flex-grow: 1;
+}
+
+.matters .container .inner .content .block:last-child{
+    border: none;
+}
+
+.matters .container .inner .content .block span{
+    font-size: 52px;
+    font-weight: 700;
+}
+.matters .container .inner .content .block h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/* //////////////LENDING////////////// */
+
+
+.lending .container .inner{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    padding: 140px 0 60px;
+}
+.lending .container .inner .content{
+  margin-left: 120px;
+}
+
+.lending .container .inner .content h3{
+    color: var(--darkblack);
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.lending .container .inner .content p{
+    color: var(--black);
+    font-size: 18px;
+    padding: 30px 0 30px;
+}
+
+.lending .container .inner .content .icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lending .container .inner .content .icons span{
+    padding-left: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.lending .container .inner .content .icons a i{
+    font-size: 50px;
+    color: var(--black);
+}
+
+
+/* /////////////FEATURES///////////// */
+
+.features .container .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0;
+}
+.features .container .inner .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Inter';
+   
+}
+.features .container .inner .content .block{
+    padding: 56px 80px 56px 0;
+}
+.features .container .inner .content .block .icon i{
+    font-size: 26px;
+}
+.features .container .inner .content .block h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 0 7px;
+}
+.features .container .inner .content .block p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* //////////////STRATEGY////////////// */
+
+.strategy .container .inner{
+    color: var(--black);
+    font-family: 'Inter';
+    padding-bottom: 110px;
+}
+.strategy .container .inner a{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--blue);
+}
+.strategy .container .inner .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strategy .container .inner .content h4{
+    font-size: 42px;
+    font-weight: 700;
+    padding: 24px 0 50px;
+}
+.strategy .container .inner .content .icons{
+   margin-top: 80px;
+}
+.strategy .container .inner .content .icons i{
+    background-color: var(--base);
+    color: var(--darkblack);
+    border-radius: 50%;
+    padding: 20px;
+}
+.strategy .container .inner .teamblock{
+    display: flex;
+    justify-content: space-between;
+}
+.strategy .container .inner .teamblock .block img{
+    width: 350px;
+    height: 380px;
+}
+.strategy .container .inner .teamblock .block h4{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 24px 0 6px;
+}
+.strategy .container .inner .teamblock .block p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* //////////////STORY/////////////// */
+.story .container .inner{
+    background-color: var(--base);
+    padding: 115px 0 115px 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+}
+.story .container .inner .content h4{
+    font-size: 38px;
+    font-weight: 700;
+}
+.story .container .inner .content p{
+    font-size: 38px;
+    font-weight: 400;
+    padding: 32px 0;
+}
+.story .container .inner .content .social{
+    padding: 4px 0 30px;
+}
+.story .container .inner .content .social a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--blue);
+}
+.story .container .inner .content .social a i{
+    padding-left: 10px;
+}
+.story .container .inner .content .dot span{
+    color: #b4b4b4;
+    font-size: 40px;
+}
+.story .container .inner .content .dot :first-child{
+    color: var(--blue);
+}
+ 
+/* //////////////WORK///////////////// */
+
+.work .container .inner{
+    font-family: 'Inter';
+    padding: 60px 0;
+}
+
+.work .container .inner h3{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.work .container .inner .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 66px;
+}
+
+.work .container .inner .content .block .heading{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 4px;
+}
+.work .container .inner .content .block .text{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* //////////////////CLOSING////////////////// */
+.closing {
+    background: var(--base);
+}
+.closing .container .inner{
+    font-family: 'Inter';
+    padding: 110px 0;
+    
+}
+.closing .container .inner .content{
+    border-bottom: 2px solid #b4b4b4;
+    padding-bottom: 60px;
+}
+
+.closing .container .inner .content h2{
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+.closing .container .inner .content p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 0 76px;
+}
+.closing .container .inner .content .icon{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.closing .container .inner .content .icon a i{
+    padding-left: 10px;
+}
+.closing .container .inner .images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 61px;
+}
+
+

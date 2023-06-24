@@ -1,0 +1,155 @@
+{
+    "library": [
+        {
+            "id": 1,
+            "heading": "We have created a big library <br> of illustrations with custom <br> style and action types.",
+            "paragraph": "“E-commerce Illustration Pack collects different ways to do quick shopping, pay in <br> a second, andget all those stuff you need. There are smart delivery and polite <br> service in the scenes. Eachof them is realized in cold and warm colors with”",
+            "img": "<img src='./images/Rectangle 379.png' alt='Rectangle 379'>",
+            "par1": "Jesica Kumari",
+            "par2": "CEO Of Acme Limited"
+        }
+    ],
+    "matters": [
+        {
+            "id": 1,
+            "count": 5,
+            "text": "Service Geographics"
+        },
+        {
+            "id": 2,
+            "count": 30,
+            "text": "Fortune 500 Clients"
+        },
+        {
+            "id": 3,
+            "count": 300,
+            "text": "Dedicated Members"
+        },
+        {
+            "id": 4,
+            "count": 8,
+            "text": "Dedicated Members"
+        }
+    ],
+    "lending": [
+        {
+            "id": 1,
+            "image": "<img src='./images/Rectangle1.png' alt='Rectangle1'>",
+            "heading": "Headline of Modern and <br> Digital Lending Platform <br> In a Few Seconds for You",
+            "text": "Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital <br> lending strategy tostreamline the lending process Gorgeous, <br> high-quality design system for mobile, tablet & afew reasons digital"
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "First Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-layer-group'></i>",
+            "heading": "Second Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-heart'></i>",
+            "heading": "Third Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 4,
+            "icon": "<i class='fa-solid fa-star'></i>",
+            "heading": "Fourth Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 5,
+            "icon": "<i class='fa-solid fa-bolt'></i>",
+            "heading": "Fifth Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        },
+        {
+            "id": 6,
+            "icon": "<i class='fa-brands fa-windows'></i>",
+            "heading": "First Feature",
+            "text": "Gorgeous, high-quality design <br>system for mobile, tablet and <br>desktop devices a few reasons"
+        }
+    ],
+    "featuresimg": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Rectangle (2).png' alt='Rectangle (2)'>"
+        }
+    ],
+
+    "strategy": [
+        {
+            "id": 1,
+            "heading": "Nowadays, it isn’t uncommon to see <br> lenders rapidly adopting a digital <br> lending strategy to streamline"
+        }
+    ],
+   
+    "teamblock": [
+        {
+            "id": 1,
+            "img": "<img src='images/person1.png' alt='vffv'>",
+            "heading": "Samuel Willson",
+            "text": "Digital Artist"
+        },
+        {
+            "id": 2,
+            "img": "<img src='images/person3.jpg' alt=''>",
+            "heading": "Angelina Hellhopn",
+            "text": "Digital Artist"
+        },
+        {
+            "id": 3,
+            "img": "<img src='images/person2.jpg' alt=''>",
+            "heading": "Kyle Generale",
+            "text": "Digital Artist"
+        }
+    ],
+
+
+    "story": [
+        {
+            "id": 1,
+            "heading": "Success Story",
+            "text": "Nowadays, it isn’t uncommon <br> to see lenders rapidly <br> adopting a digital lending <br> strategy to streamline the <br> lending process"
+        }
+    ],
+    "storiimg": [
+        {
+            "id": 1,
+            "img": "<img src='./images/Rectangle.png' alt='Rectangle' class='image'>"
+        }
+    ],
+    "storyimg": [
+        {
+            "id": 1,
+            "image": "<img src='./images/Rectangle.png' alt='Rectangle' class='image'>"
+        }
+    ],
+    "work": [
+        {
+            "id": 1,
+            "img": "<img src='./images/images1.png' alt='images1'>",
+            "heading": "Create your site",
+            "text": "Create an account to get started"
+        },
+        {
+            "id": 2,
+            "img": "<img src='./images/images2.png' alt='images1'>",
+            "heading": "Add Contents",
+            "text": "Add contents and pages to your site."
+        },
+        {
+            "id": 3,
+            "img": " <img src='./images/images3.png' alt='images1'>",
+            "heading": "Publish",
+            "text": "Now publish to make your site live!"
+        }
+    ]
+}
